@@ -5,12 +5,19 @@ Simple message bus created using NCHAN.
 - Exposes `/pub` and `/sub` routes.
 - Uses [Server-Sent Events](https://www.w3.org/TR/eventsource/)
 
+
 ### Example commands:
 
 start container
 
 ```sh
 docker-compose up
+```
+
+or
+
+```sh
+docker run --rm -p 8080:80 vgerevini/nchan-message-bus
 ```
 
 Subscribe:

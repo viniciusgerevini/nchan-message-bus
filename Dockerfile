@@ -7,4 +7,6 @@ RUN \
 
 RUN mkdir -p /run/nginx
 
+EXPOSE 80
+
 COPY nginx.conf /etc/nginx/nginx.conf
